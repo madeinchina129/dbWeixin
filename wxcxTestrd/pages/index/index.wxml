@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="con">
+<view class="swiper">
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="idxList">
+    <view class="item" wx:for="{{movieList}}">
+      <view class="itemCom" bindtap="readDetail" data-id="{{item.id}}" data-title="{{item.title}}" data-img="{{item.images.large}}" data-rating="{{item.rating.average}}" data-genres="{{item.genres}}" data-alt="{{item.alt}}">
+      <!-- {{item.id}} -->
+        <image src="{{item.images.large}}"></image>
+        <view class="movieListCon">
+        <view class="title">{{item.title}}</view>
+        <view class="movieListConDow">
+        <view class="year">{{item.year}}</view>
+        <view class="genres">{{item.genres}}</view>
+        </view>
+        <view class="rating"><span class="ratingText">评分：</span>{{item.rating.average}}</view>
+        </view>
+      </view>
+    </view>
+</view>
+</view>

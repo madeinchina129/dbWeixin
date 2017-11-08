@@ -1,0 +1,39 @@
+.detailsCon{
+width:100%;
+height:100%;
+}
+.detCon{
+display: flex;
+flex-direction: column;
+}
+.detailsTitle{
+  font-size:60rpx;
+  padding:20rpx 30rpx;
+  color:#8B8989;
+}
+.detRG{
+  display: flex;
+  font-size:30rpx;
+  padding:0 30rpx;
+}
+.rating{
+  font-size:30rpx;
+  color:#EE4000;
+  padding-right:30rpx;
+}
+.ratingText{
+  font-size:30rpx;
+  color:#8B7D6B;
+}
+.detImg{
+  width:100%;
+  height:500rpx;
+}
+.clickImg{
+  font-size: 29rpx;
+  color:#8B8970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:36rpx;
+}

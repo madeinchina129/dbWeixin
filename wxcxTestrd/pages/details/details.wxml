@@ -1,0 +1,12 @@
+<view  class="detailsCon">
+  <view class="detCon">
+    <span class="detailsTitle">{{title}}</span>
+    <view class="detRG">
+    <view class="rating"><span class="ratingText">评分：</span>{{rating}}</view>
+    <view>类型：{{genres}}</view>
+    </view>
+    <image src="{{img}}" class="detImg" bindtap="jumpDet"></image>
+    <view class="clickImg">点击图片查看更多</view>
+    <button id="0" type="primary" bindtap="listenerBtnGetLocation">定位当前位置并打开内置地图</button>
+  </view>
+</view>

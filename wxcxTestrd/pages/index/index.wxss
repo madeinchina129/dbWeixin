@@ -1,0 +1,73 @@
+/**index.wxss**/
+.con{
+  width:100%;
+  height:100%;
+  background: 	#F5FFFA;
+  display:flex;
+  flex-direction: column;
+}
+.swiper{
+  width:100%;
+  height:300rpx;
+}
+.swiper swiper{
+  width:100%;
+  height:300rpx;
+}
+.swiper image{
+  width:100%;
+  height:300rpx;
+}
+.idxList{
+  width:100%;
+}
+.idxList{
+  width:100%;
+}
+.idxList .item{
+  width:100%;
+  /* height:200rpx; */
+  border-bottom:1px solid #8B8386;
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.itemCom{
+  padding:20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemCom image{
+  width:160rpx;
+  height:160rpx;
+  padding-right:30rpx;
+}
+.movieListCon{
+  height:100%;
+}
+.title{
+  font-size:43rpx;
+  color:#2F4F4F;
+}
+.movieListConDow{
+  display: flex;
+  font-size: 33rpx;
+  padding:20rpx 0;
+}
+.year{
+  padding-right:50rpx;
+  color:#4F4F4F;
+}
+.genres{
+  color:#8B8989;
+}
+.rating{
+font-size:26rpx;
+color:#EE4000;
+}
+.ratingText{
+  font-size:26rpx;
+  color:#8B7D6B;
+}
